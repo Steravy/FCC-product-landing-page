@@ -71,7 +71,7 @@ main {
 
 #hero-section {
     height: 100vh;
-    padding: 10rem 1rem;
+    /* padding: 10rem 1rem; */
     display: flex;
     flex-direction: column;
     justify-content: center;
