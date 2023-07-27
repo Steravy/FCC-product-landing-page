@@ -203,6 +203,24 @@ label {
 
 }
 
+footer {
+    max-width: 100%;
+    height: 3rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid var(--text-color);
+    background-color: var(--text-color);
+    color: whitesmoke;
+}
+
+footer p {
+    font-family: var(--font-family);
+    font-size: 1rem;
+}
+
 @media (max-width: 1024px) {
 
     #nav-wrapper {
