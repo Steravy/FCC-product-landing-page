@@ -1,11 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desknote</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    
+    <header id="header">
+        <section id="nav-wrapper">
+            <figure id="logo-container">
+                <a href="index.html">
+                    <img id="header-img" src="./assets/images/logo.png" alt="Desknote logo">
+                </a>
+            </figure>
+            <nav id="nav-bar">
+                <ul>
+                    <li class="nav-link">
+                        <a href="#features">Features</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#how-it-works">How it works</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#pricing">Pricing</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+
+    <main>
+        <section id="hero-section">
+            <h1 id="hero-title">
+                Desknote
+                <br />
+                Your Command-Line Note-Taking Solution
+            </h1>
+        </section>
+
+        <section class="section" id="how-it-works">
+
+            <h2 class="section-title">How it works</h2>
+
+            <article id="how-it-works-article">
+
+                <iframe id="video" height="315" width="560"
+                    src="https://www.youtube.com/embed/iPOnaMVHxFE"
+                    frameborder="0" allowfullscreen>
+                </iframe>
+
+                <article>
+                    <p>
+                        Installation: Easily install Desknote on your system with just a few simple commands.
+                    </p>
+                    <p>
+                        Create Notes: Open Desknote in your terminal and start creating notes using intuitive commands.
+                    </p>
+                    <p>
+                        Organize: Keep your notes organized by adding tags or categories for quick access.
+                    </p>
+                    <p>
+                        Edit and Update: Effortlessly modify and update your notes as your ideas evolve.
+                    </p>
+                    <p>
+                        Search Function: Find specific notes quickly with a powerful search feature.
+                    </p>
+
+                    <p>
+                        Stay Productive: Enjoy a distraction-free environment to focus on what matters most.
+                    </p>
+                </article>
+            </article>
+
+        </section>
+
+        <section class="section" id="features">
+
+            <h2 class="section-title">Features</h2>
+
+            <article id="features-article">
+
+                <figure>
+                    <img id="feature-img" src="./assets/images/feature-bg.svg" alt="Feature picture">
+                </figure>
+
+                <ul>
+                    <li>
+                        Effortless Note-Taking: Create, manage, and organize your notes seamlessly within the
+                        command-line
+                        interface.
+                    </li>
+
+                    <li>
+                        Distraction-Free Environment: Stay focused on your productivity with a clean and minimalist
+                        note-taking environment.
+                    </li>
+
+                    <li>
+                        Versatile Functionality: Jot down ideas, to-do lists, meeting minutes, and essential information
+                        with ease.
+                    </li>
+
+                    <li>
+                        Intuitive Commands: Navigate and edit your notes effortlessly, keeping you in control at all
+                        times.
+                    </li>
+
+                    <li>
+                        Terminal Convenience: Take notes from anywhere, anytime, directly from your terminal.
+                    </li>
+
+                    <li>
+                        Boost Productivity: Stay organized and enhance your workflow efficiency with Desknote.
+                    </li>
+                </ul>
+
+            </article>
+
+        </section>
+
+        <section class="section" id="contact">
+
+            <h2 class="section-title">Contact</h2>
+
+            <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST" required>
+
+                <!-- <label for="email">Let us know how to reach you</label> -->
+                <input type="email" name="email" id="email" placeholder="Enter your email...">
+
+                <input id="submit" type="submit" value="Send">
+
+            </form>
+
+        </section>
+    </main>
+
 </body>
+
 </html>
+
